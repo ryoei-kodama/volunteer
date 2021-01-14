@@ -1,0 +1,58 @@
+body{background-color: white;
+    color: #696969;}
+    h4{text-align: left;
+        
+            padding: 0 .3em;
+            transition: all .3s;
+          }
+          h4:hover {
+            color: #fff;
+            background-color: #87cefa;}
+    h1{text-align: center;
+    color: #ff69b4;
+    margin-top:50px;}
+    .moku{text-align: left;
+        border: 5px solid;
+    padding-left: 30px;
+    width: 1120px;
+    height: 400px;
+    margin-top:100px;}
+
+    .toi{position: absolute;right: 250px;
+    position: absolute;top:10px;}
+    .mail{position: absolute;right: 140px;
+    position: absolute;top: 10px;}
+    .mokuji{margin-top:100px;}
+    .sya1{position: absolute;left: 470px;
+    position: absolute;top: 230px;}
+    .horm{position: absolute;right: 150px;
+    position: absolute;top:650px;}
+    
+    @media screen and (max-width:768px){
+      .mokuji{margin-top:100px;}
+      .toi{position: absolute;right: 10px;}
+      .mail{position: absolute;left:  10px;}
+      .horm{position: absolute;right: 100px;
+      position: absolute;top: 650px;}
+      h1{
+        font-size:20px;}
+      h3{font-size: 15px;}
+      .sya1{position: absolute;right:100px;
+      width: 10px;height: 10px;}
+      img{width: 50px ;height :50px;}   
+    
+      }
+    @media screen and (min-width:768px) and (max-width:1024px){
+    div{width: auto;}
+    .toi{position: absolute;left:  130px;}
+    .mail{position: absolute;right: 10px;}
+    .horm{position: absolute;top:650px;
+    position: absolute;right: 100px;}
+    }
+    @media screen and (min-width:1024px){
+      div{width: auto;}
+      .toi{position: absolute;right: 10px;}
+      .mail{position: absolute;right: 130px;}
+      .horm{position: absolute;top:650px;
+      position: absolute;right: 100px;}
+    }
